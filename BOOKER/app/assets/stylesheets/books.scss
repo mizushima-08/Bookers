@@ -5,10 +5,6 @@
   margin: 33px;
 }
 
-t {
-  font-weight: bold;
-}
-
 td {
     padding-bottom: 7px;
     padding-left: 5px;
@@ -20,7 +16,7 @@ td {
   margin-bottom: 10px;
 }
 
-.field>h4 {
+.field > h4 {
   margin-bottom: 0px;
   font-weight: normal;
 }
@@ -43,6 +39,10 @@ td {
     margin-bottom: 0;
     background-color: #c00;
     color: #fff;
+}
+
+#error_explanation > ul {
+  padding-left: 40px;
 }
 
 #field_error {
